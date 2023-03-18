@@ -1,0 +1,78 @@
+*,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.charecters {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+    margin: 200px 350px;
+    line-height: 40px;
+    gap: 10px;
+    font-size: 25px;
+}
+
+p {
+    border-bottom: 2px solid  rgba(64, 57, 57, 0.96);
+
+}
+
+.Planet_information {
+    width: 60%;
+    position: absolute;
+    top:250PX ;
+    left:60% ;
+    height: 200PX;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(250, 235, 215, 0.485);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.271), rgba(42, 39, 39, 0.195)), ;
+}
+
+.Personol_Information {
+    border: 2px solid white;
+    width: 70%;
+    height: 200PX;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(250, 235, 215, 0.485);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.271), rgba(42, 39, 39, 0.195)), ;
+}
+
+.people_loading {
+    left: 20%;
+    position: absolute;
+}
+
+.people_loading {
+    position: absolute;
+    left: 20%;
+}
+.top_of_page2{
+    color: black;
+    border: 2px solid black;
+    width: 680px;
+    border-radius: 8px;
+    background-color: rgba(250, 235, 215, 0.485);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.271), rgba(42, 39, 39, 0.195)), ;
+    position: absolute;
+    margin: 90px  385px;
+    text-align: center;
+    padding: 10px;
+}
+.last_line{
+    border-bottom: none;
+}
